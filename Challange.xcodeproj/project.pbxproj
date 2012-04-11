@@ -1,0 +1,207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4F3AB9F1527420800C8F16A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4F3AB9E1527420800C8F16A /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4F3AB981527420800C8F16A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4F3AB9A1527420800C8F16A /* Challange */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Challange; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F3AB9E1527420800C8F16A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4F3ABAB152742D700C8F16A /* Challange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Challange.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F3AB971527420800C8F16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4F3AB8F1527420700C8F16A = {
+			isa = PBXGroup;
+			children = (
+				A4F3AB9D1527420800C8F16A /* Challange */,
+				A4F3AB9B1527420800C8F16A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F3AB9B1527420800C8F16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F3AB9A1527420800C8F16A /* Challange */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F3AB9D1527420800C8F16A /* Challange */ = {
+			isa = PBXGroup;
+			children = (
+				A4F3AB9E1527420800C8F16A /* main.cpp */,
+				A4F3ABAB152742D700C8F16A /* Challange.h */,
+			);
+			path = Challange;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F3AB991527420800C8F16A /* Challange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F3ABA41527420800C8F16A /* Build configuration list for PBXNativeTarget "Challange" */;
+			buildPhases = (
+				A4F3AB961527420800C8F16A /* Sources */,
+				A4F3AB971527420800C8F16A /* Frameworks */,
+				A4F3AB981527420800C8F16A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Challange;
+			productName = Challange;
+			productReference = A4F3AB9A1527420800C8F16A /* Challange */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F3AB911527420700C8F16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A4F3AB941527420700C8F16A /* Build configuration list for PBXProject "Challange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4F3AB8F1527420700C8F16A;
+			productRefGroup = A4F3AB9B1527420800C8F16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F3AB991527420800C8F16A /* Challange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F3AB961527420800C8F16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F3AB9F1527420800C8F16A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4F3ABA21527420800C8F16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A4F3ABA31527420800C8F16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A4F3ABA51527420800C8F16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4F3ABA61527420800C8F16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F3AB941527420700C8F16A /* Build configuration list for PBXProject "Challange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F3ABA21527420800C8F16A /* Debug */,
+				A4F3ABA31527420800C8F16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F3ABA41527420800C8F16A /* Build configuration list for PBXNativeTarget "Challange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F3ABA51527420800C8F16A /* Debug */,
+				A4F3ABA61527420800C8F16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F3AB911527420700C8F16A /* Project object */;
+}
